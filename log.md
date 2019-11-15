@@ -67,11 +67,39 @@ Then just fiddle with CSS. Made the mistake of giving it the same class as the s
 
 ### Day 45: November 15
 
-**Today:**
+**Today:** Played on Playgrounds, learnt about initialisation and parameters. Listened to CS50 week1 lecture on C, and got through one fo the shorts on data types too. 
 
-**Thoughts:**
+**Thoughts:** Excited to get a bit further with Swift Playgrounds, I'm enjoying being able to incrementally see each skill I'm picking up, and being able to practice the older ones. Not sure what it is about this format, but it works for me. And it's so exciting to see how much more comfortable I am with the older skills already, where I don't have to think about how to use conditionals or loops. Really enjoying Swift and it's syntax, and looking forward to using it in a proper project soon. 
 
-**Learning Opportunities:**
+It's very interesting to be learning C at the same time as Swift. The format of Playgrounds is helping me understand programming syntax and how to think about things computationally, and C and the CS50 lectures give me a base of the _HOW_ Swift works and is put together. You can see C is an older language and requires so much more. Im curious to get started with the pset and see how I fare... I think I understand what's happening, but we all know that can change when I actually try _DO_. 
+
+**Learning Opportunities:** Just some algorithm ordering in Swift that I struggled with in the exercise 'Generalizing a function'. I needed to set the parameters for the function of turning the lock up or down. I tried: 
+
+`func turnLock (up:Bool, numberOfTimes: int)
+	{
+		for i in 1 ... numberOfTimes {
+			if true {
+				expert.turnLockUp() }
+			else { 
+				expert.turnLockDown() }
+		}
+	}`
+	
+
+That did not work. The character just kept on turning it up. Fiddled around and finally just looked it up to get an idea of where I was going wrong. Thank goodness for [Building Rainbows!](https://buildingrainbows.com)
+Actually meant to be:
+`func turnLock (up:Bool, numberOfTimes: int)
+	{
+		if up == true {
+			for i in 1 ... numberOfTimes {
+				expert.turnLockUp() }
+		} else {
+			for i in 1 ... numberOfTimes {
+				expert.turnLockDown() }
+		}
+	}`
+	
+Realised I needed to determine the value of `up` before calling `for`, as my first attempt was basically just running through the `if` `else` statements a number of times, not running the command of turning the lock the number of times needed. 
 
 **Link(s) to work** 
 
