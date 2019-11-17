@@ -121,6 +121,42 @@ Realised I needed to determine the value of `up` before calling `for`, as my fir
 
 **Thoughts:**
 
-**Learning Opportunities:**
+**Learning Opportunities:** 
+
+	`int main(void)
+	{
+	    int height; 
+
+	    //get user input
+	    do 
+	    { 
+		height = get_int("Height:");
+	    } while (height < 1 || height > 8);
+
+	    //build pyramid
+	    if (height > 0 || height < 9) 
+	    {
+		for (int h = 0; h < height; h++)
+		{
+		    //loop for spaces 
+		    for (int sp = height - h; sp > 1; sp--) 
+		    {
+			printf(" ");
+		    }
+		    //loop for hashes
+		    for (int ha = 0; ha <= h; ha++) 
+		    {
+			printf("#");
+		    }
+		    //new line after each iteration
+		    printf("\n");
+		}
+	    }
+
+	}`
+Initially I put `//loop for spaces 
+		    for (int sp = height - h; sp > 0; sp--)`
+which resulted in my checks failing, even though it all looked correct at first glance. When I investigated, it seemed it was printing an extra space in front of the hash, `" #"` instead of `"#"`. This is because, by having `sp > 0`, spaces were being input from row 0 (ie row 1 in CS talk), where actually one didn't want any spaces. They should've been starting from second row, which is achieved by checking the boolean expression between the two semicolons. `sp > 0` translates to "is the integer greater than 0", but because the height is starting from 1, then this is always going to be true. When I changed it to `sp > 1`, it translated to "is the integer greater than 1", so the first row (height = 1) would come back as false, and therefore no space would be printed. 
+
 
 **Link(s) to work** 
