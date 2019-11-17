@@ -157,9 +157,10 @@ So here's the final Mario (less) answer, mostly so I can look back on it...
 	    }
 	}
 `
+
 Initially I put 
-`//loop for spaces 
-	for (int sp = height - h; sp > 0; sp--)`
+	`//loop for spaces 
+		for (int sp = height - h; sp > 0; sp--)`
 which resulted in my checks failing, even though it all looked correct at first glance. When I investigated, it seemed it was printing an extra space in front of the hash, `" #"` instead of `"#"`. This is because, by having `sp > 0`, spaces were being input from row 0 (ie row 1 in CS talk), where actually one didn't want any spaces. They should've been starting from second row, which is achieved by checking the boolean expression between the two semicolons. `sp > 0` translates to "is the integer greater than 0", but because the height is starting from 1, then this is always going to be true. When I changed it to `sp > 1`, it translated to "is the integer greater than 1", so the first row (height = 1) would come back as false, and therefore no space would be printed.
 
 To fix the portfolio I just deleted the wordpress install off the domain and literally uploaded the entire wordpress install + theme files from my localhost using Dreamhost's WebFTP. 
