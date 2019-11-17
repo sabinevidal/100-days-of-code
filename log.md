@@ -106,23 +106,25 @@ Realised I needed to determine the value of `up` before calling `for`, as my fir
 
 ### Day 46: November 16
 
-**Today:**
+**Today:** Just finished off portfolio, had to fiddle around with final CSS stylings, getting the correct header image and cleaning up everything. Struggled with getting this live, as at first I couldn't login to the database, and after couldn't log into the wp-admin. 
 
-**Thoughts:**
+**Thoughts:** I've enjoyed putting this together, especially giving more thought about how someone else will use it and how accessible it is for them to add their own stuff and edit what they need to/want to. I think when working with Wordpress one has to be more aware of how someone else might want to edit your work, eg change colours or layouts, and finding a balance between making it easy for the client, but also making sure they can't break anything. 
 
-**Learning Opportunities:**
+**Learning Opportunities:** Figured that I could create some 'custom css' in the wp-admin for the client to be able to change the feature colour. It is a yellow at the moment, but they're likely going to change that depending on what they upload. Simple as putting the specific class with styling for the colour in the custom css box under the appearance>customiser tool and leaving instructions on how to change it with the client.
 
-**Link(s) to work** 
+No fix on getting the portfolio live. Left it for tomorrow as I was focusing on life for today. 
+
+**Link(s) to work** Hopefully I'll be able to put this up tomorrow!
 
 
 ### Day 47: November 17
 
-**Today:**
+**Today:** Today was all about getting the portfolio live and tackling CS50s pset 1.1 (Mario less). Also got through some of w1's shorts explaining conditionals and loops in C. Really struggled with the pset and had to search around a lot for something that made it make sense to me. I'm very much a deep _how_ and _why_ thinker/understander. I need to know it all before I can accept and understand it. Took me at least 4 hours (over about 8 hours) to get it working. 
 
-**Thoughts:**
+**Thoughts:** I watched the pset shorts mostly to just help with the pset. But they're really good for solidifying everything and getting some extra info. C is a weird language. Just as I think I understand it, I look at a `for` loop and get lost. Definitely needed a bit extra time to wrap my head around how the loops were written out and how they worked. I get the basics of it, and can easily do it in Swift now, but C feels clunky (for want of a better word). Totally understand why they teach it though! Once I understood it, I felt like I had a much deeper grasp of what it was doing, and felt like I could look at other languages and translate it into them (well... we'll see I guess). 
 
 **Learning Opportunities:** 
-
+So here's the final Mario (less) answer, mostly so I can look back on it... 
 	`int main(void)
 	{
 	    int height; 
@@ -131,7 +133,8 @@ Realised I needed to determine the value of `up` before calling `for`, as my fir
 	    do 
 	    { 
 		height = get_int("Height:");
-	    } while (height < 1 || height > 8);
+	    }
+	    while (height < 1 || height > 8);
 
 	    //build pyramid
 	    if (height > 0 || height < 9) 
@@ -152,14 +155,18 @@ Realised I needed to determine the value of `up` before calling `for`, as my fir
 		    printf("\n");
 		}
 	    }
+	}
+`
+Initially I put 
+`//loop for spaces 
+	for (int sp = height - h; sp > 0; sp--)`
+which resulted in my checks failing, even though it all looked correct at first glance. When I investigated, it seemed it was printing an extra space in front of the hash, `" #"` instead of `"#"`. This is because, by having `sp > 0`, spaces were being input from row 0 (ie row 1 in CS talk), where actually one didn't want any spaces. They should've been starting from second row, which is achieved by checking the boolean expression between the two semicolons. `sp > 0` translates to "is the integer greater than 0", but because the height is starting from 1, then this is always going to be true. When I changed it to `sp > 1`, it translated to "is the integer greater than 1", so the first row (height = 1) would come back as false, and therefore no space would be printed.
 
-	}`
-Initially I put `//loop for spaces 
-		    for (int sp = height - h; sp > 0; sp--)`
-which resulted in my checks failing, even though it all looked correct at first glance. When I investigated, it seemed it was printing an extra space in front of the hash, `" #"` instead of `"#"`. This is because, by having `sp > 0`, spaces were being input from row 0 (ie row 1 in CS talk), where actually one didn't want any spaces. They should've been starting from second row, which is achieved by checking the boolean expression between the two semicolons. `sp > 0` translates to "is the integer greater than 0", but because the height is starting from 1, then this is always going to be true. When I changed it to `sp > 1`, it translated to "is the integer greater than 1", so the first row (height = 1) would come back as false, and therefore no space would be printed. 
+To fix the portfolio I just deleted the wordpress install off the domain and literally uploaded the entire wordpress install + theme files from my localhost using Dreamhost's WebFTP. 
 
 
-**Link(s) to work** 
+**Link(s) to work:** 
+[Link to portfolio site] (https://beandgolden.com) There's nothing really on it yet - but it's there! 
 
 
 ### Day 48: November 18
