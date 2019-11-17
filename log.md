@@ -160,3 +160,284 @@ which resulted in my checks failing, even though it all looked correct at first 
 
 
 **Link(s) to work** 
+
+
+### Day 48: November 18
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 49: November 19
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 50: November 20
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 51: November 21
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 52: November 22
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 53: November 23
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 54: November 24
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 55: November 25
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 56: November 26
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 57: November 27
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 58: November 28
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 59: November 29
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 60: November 30
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 61: December 1
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 62: December 2
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 63: December 3
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 64: December 4
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 65: December 5
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 66: December 6
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 67: December 7
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 68: December 8
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 69: December 9
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 70: December 10
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 71: December 11
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 72: December 12
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 73: December 13
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 74: December 14
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 75: December 15
+
+**Today:**
+
+**Thoughts:**
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
