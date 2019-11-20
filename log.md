@@ -186,7 +186,18 @@ I feel like I need to be immersed in code for a bit, have intentional time dedic
 
 **Thoughts:**
 
-**Learning Opportunities:**
+**Learning Opportunities:** Gonna be going through the problems I encounter with pset1 Cash and 'live' blog how I solve them:
+Struggled with getting the cents to round accurately without rounding too much. As at first try input: 3.60 with `int cents = round(dollars * 100);` output: 300... which is not what I'm looking for...
+Found the problem! I declared the cents as an int at the beginning, instead of float. Changed it and now it works (integers don't use decimals, so essentially the decimal was just disregarded when input). 
+The hints suggested we use the modulus operator, no idea where to start with that... probably the short on operators.
+- the short didn't explain much, so did some searching. Thought I'd found the way to use the modulus in this instance would be to see if the cents divided into the quarter/dime/etc without a remainder `if (cents % 25 == 0)`. That didn't work. Obviously. If I'd taken a second to do basic math I would've realised that that makes no sense... _reminder to self: dont' forget basic maths_. Then I found the walkthrough on youtube, where it was suggested we use while statements to check if 25 could be used, until it couldn't, then going doing to 10(dimes), 5(nickels) and 1 (pennies), by subtracting the coins each time without going into negatives.
+	`while (cents -25 > 25) {cents - 25;}` 
+After that I got it done pretty quickly!
+Whoops! Came back with errors... used printf to see what the rounding was doing to the cents, but it was correct. One of the errors came back when 0.01 change was expected, fiddled aroudn and realised I needed to do `while (cents -1 >= 1) {cents - 1;}` with the equal sign. Not going to forget that one again! 
+
+The walkthrough also went through the 'modular' method, so decided to give that one a go too. They didn't explain it too in-depth on the walkthrough, so I've had to go a searching for how to even start implementing it. I understand the basics of it, and that I would have to use division as well, but not even sure how to start...  
+
+
 
 **Link(s) to work** 
 
