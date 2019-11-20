@@ -171,17 +171,18 @@ To fix the portfolio I just deleted the wordpress install off the domain and lit
 
 ### Day 48: November 18
 
-**Today:**
+**Today:** Played with Swift Playgrounds, and worked on getting the portfolio working. Then got ridiculously distracted looking at coding bootcamps and whether that was an option for me.  
 
-**Thoughts:**
+**Thoughts:** Playgrounds is getting more interesting.  
+I feel like I need to be immersed in code for a bit, have intentional time dedicated to learning, instead of what I'm doing at the moment, which is trying to learn what I can, but feeling like I need to be job hunting but knowing I don't have the skills (both coding or job hunting) to be doing a job yet.
 
 **Learning Opportunities:**
 
 **Link(s) to work** 
 
-### Day 49: November 19
+### Day 49: November 20
 
-**Today:**
+**Today:** Took a day off yesterday as I had life admin and also got stuck in coding bootcamp research. Today I got back on it, a couple levels on Playgrounds and then attempting CS50 pset1 Cash. 
 
 **Thoughts:**
 
