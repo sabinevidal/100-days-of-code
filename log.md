@@ -173,18 +173,19 @@ To fix the portfolio I just deleted the wordpress install off the domain and lit
 
 **Today:** Played with Swift Playgrounds, and worked on getting the portfolio working. Then got ridiculously distracted looking at coding bootcamps and whether that was an option for me.  
 
-**Thoughts:** Playgrounds is getting more interesting.  
-I feel like I need to be immersed in code for a bit, have intentional time dedicated to learning, instead of what I'm doing at the moment, which is trying to learn what I can, but feeling like I need to be job hunting but knowing I don't have the skills (both coding or job hunting) to be doing a job yet.
+**Thoughts:** Playgrounds is getting more interesting. Just practicing stuff slowly, but everything is becoming a lot more natural, and working out the algorithms is also coming quicker to me.   
+On the coding bootcamp: I feel like I need to be immersed in code for a bit, have intentional time dedicated to learning, instead of what I'm doing at the moment, which is trying to learn what I can, but feeling like I need to be job hunting but knowing I don't have the skills (both coding or job hunting) to be ablt to get, let alone do a job yet. I'm really enjoying what I'm doing, and definitely enjoying going deeper with Swift and C than just the frontend from before (though still need to brush on ym JS). I could see myself taking on more full stack projects, or maybe even backend (with the occasional website thrown in, and obviously app design). But we'll see. It's a bit of an odd time and I can't just jump into decisions (...anymore), so will mull over it. And do an exorbitant amount of research. 
 
-**Learning Opportunities:**
+**Learning Opportunities:** Can mapping out my bootcamp options be a learning opportunity? No? Okay... I have the beginnings of a spreadsheet, but I feel like that might be a bit too much, 
 
 **Link(s) to work** 
 
 ### Day 49: November 20
 
-**Today:** Took a day off yesterday as I had life admin and also got stuck in coding bootcamp research. Today I got back on it, a couple levels on Playgrounds and then attempting CS50 pset1 Cash. 
+**Today:** Took a day off yesterday as I had life admin and also got stuck in coding bootcamp research. Today I got back on it, a couple levels on Playgrounds and then attempting CS50 pset1 Cash. Still trying to get the portfolio up and running.
 
-**Thoughts:**
+**Thoughts:** There's so many WordPress logins... I can't keep track of them all. Playgrounds is getting fantastically more complicated. I'm working through it slowly, but really absorbing everything. Can't wait to build my first acctual Swift app!
+The CS50 problem sets are deceptive. They seem liek they'll be easy, then they're ridiculously hard and you don't know where to start, and then suddenly it starts working, everything makes sense, so you submit, and then you fail and you realise you have the whole thing wrong. I love it, but also hate it, and I guess that's the point. Onwards and upwards! 
 
 **Learning Opportunities:** Gonna be going through the problems I encounter with pset1 Cash and 'live' blog how I solve them:
 Struggled with getting the cents to round accurately without rounding too much. As at first try input: 3.60 with `int cents = round(dollars * 100);` output: 300... which is not what I'm looking for...
@@ -195,9 +196,12 @@ The hints suggested we use the modulus operator, no idea where to start with tha
 After that I got it done pretty quickly!
 Whoops! Came back with errors... used printf to see what the rounding was doing to the cents, but it was correct. One of the errors came back when 0.01 change was expected, fiddled aroudn and realised I needed to do `while (cents -1 >= 1) {cents - 1;}` with the equal sign. Not going to forget that one again! 
 
-The walkthrough also went through the 'modular' method, so decided to give that one a go too. They didn't explain it too in-depth on the walkthrough, so I've had to go a searching for how to even start implementing it. I understand the basics of it, and that I would have to use division as well, but not even sure how to start...  
+Still wasn't working... apparently the actual issue, after I took to reddit, and took a couple hours away from my screen, was incredibly obvious. `while (cents -25 >= 25)` makes no sense... at all. Apparently in my late afternoon brain it did, because if you were to write it out in pseudocode exactly it kind of would work. But not in C evidently. So quick change to `while (cents >= 25)` and everything works... _that's embarrassing_ X_X But you live and you learn!  
 
+The walkthrough also went through the 'modular' method, so decided to give that one a go too. They didn't explain it too in-depth on the walkthrough, so I've had to go a searching for how to even start implementing it. I understand the basics of it, and that I would have to use division as well, but not even sure how to start... 
+So did some reading and someone said that modular makes a lot more sense once you've given the pset1 credit a go (the more comfortable option). So will follow that advice because it seems pretty legit. 
 
+WP Portfolio Problems: WordPress is just refusing to send me my new password for my live site. Not sure what to do... but need to get it sorted soon. 
 
 **Link(s) to work** 
 
