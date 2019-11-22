@@ -205,21 +205,22 @@ WP Portfolio Problems: WordPress is just refusing to send me my new password for
 
 **Link(s) to work** 
 
-### Day 50: November 20
+### Day 50: November 21
 
-**Today:**
+**Today:** Finally got the portfolio up! Sorted out admin-end stuff, ready for my client to upload their content. Played with SwiftPlaygrounds (SP)
 
-**Thoughts:**
+**Thoughts:** An admin-y sort of day, but so glad I could finally get the portfolio sorted. Sometimes it's the small things (like correctly deplying a WordPress site and changing the admin password from wp-config) that make it worth it. Also seeing my client's (sister's) face when she saw the finished product and knew it was just for her - so great! 
 
-**Learning Opportunities:**
+**Learning Opportunities:** Change user name and password for wp-admin from wp-config. Already knew this deep down, but needed reminding. Also, with one-click installs, literally only move the theme folder in wp-contents. The plugins, languages and other themes etc probably don't need to be copied over most of the time (always exceptions though!). But keeping it simple is better. 
 
 **Link(s) to work** 
 
-### Day 51: November 21
+### Day 51: November 22
 
-**Today:**
+**Today:** Squashed bugs and made slight changes in the portfolio when proper content was added. SP playing as usual.
 
-**Thoughts:**
+**Thoughts:** Totally understand how important it is to walk through the finished product with the client when they're setting it up. So many random little bugs/changes...  
+Also, about to move onto making worlds in SP! One step closer to feeling comfortable with Swift! 
 
 **Learning Opportunities:**
 Had some problems with the links on the images not work. Originally the code was:
@@ -245,11 +246,12 @@ Changed it to:
 			} ?>
 		</a>
 	</div>`
+	
 Looked at the documentation which used `echo esc_url` instead of `get_field('link')` . Changed link to url, I'm not quite sure why this worked, but I'm guessing there was overlap with link as a variable, or url is just the better variable to use.
 
 In CSS I had to change `.card.project-info:before ` to `.card.project-info a:after`, as the border created with the pseudo-element was 'covering' the image and its link. Added `a` to make it more specific, so the border wrapped around the link as well, instead of just the image, and `after` to push it back. 
 
-**Link(s) to work** 
+**Link(s) to work** [Emilie's jewellery portfolio](https://emilie.beandgolden.com)
 
 ### Day 52: November 22
 
