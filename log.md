@@ -222,6 +222,20 @@ WP Portfolio Problems: WordPress is just refusing to send me my new password for
 **Thoughts:**
 
 **Learning Opportunities:**
+Had some problems with the links on the images not work. Originally the code was: 
+
+
+Changed it to:
+`<div class="card">
+	<a href="<?php echo esc_url($url); ?>"> 
+		<?php if($image_2) {
+		echo wp_get_attachment_image( $image_2, $size,  );
+		} ?>
+	</a>
+</div>`
+Looked at the documentation which used `echo esc_url` instead of ` ` . Changed link to url, I'm not quite sure why this worked, but I'm guessing there was overlap with link as a variable, or url is just the better variable to use.
+
+Had to change `.card.project-info:before ` to `.card.project-info a:after`, as the border created with the pseudo-element was 'covering' the image and its link. Added `a` to make it more specific, so the border wrapped around the link as well, instead of just the image, and `after` to push it back. 
 
 **Link(s) to work** 
 
