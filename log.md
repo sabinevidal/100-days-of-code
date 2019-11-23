@@ -124,43 +124,13 @@ No fix on getting the portfolio live. Left it for tomorrow as I was focusing on 
 **Thoughts:** I watched the pset shorts mostly to just help with the pset. But they're really good for solidifying everything and getting some extra info. C is a weird language. Just as I think I understand it, I look at a `for` loop and get lost. Definitely needed a bit extra time to wrap my head around how the loops were written out and how they worked. I get the basics of it, and can easily do it in Swift now, but C feels clunky (for want of a better word). Totally understand why they teach it though! Once I understood it, I felt like I had a much deeper grasp of what it was doing, and felt like I could look at other languages and translate it into them (well... we'll see I guess). 
 
 **Learning Opportunities:** 
-So here's the final Mario (less) answer, mostly so I can look back on it... 
-	`int main(void)
-	{
-	    int height; 
-
-	    //get user input
-	    do 
-	    { 
-		height = get_int("Height:");
-	    }
-	    while (height < 1 || height > 8);
-
-	    //build pyramid
-	    if (height > 0 || height < 9) 
-	    {
-		for (int h = 0; h < height; h++)
-		{
-		    //loop for spaces 
-		    for (int sp = height - h; sp > 1; sp--) 
-		    {
-			printf(" ");
-		    }
-		    //loop for hashes
-		    for (int ha = 0; ha <= h; ha++) 
-		    {
-			printf("#");
-		    }
-		    //new line after each iteration
-		    printf("\n");
-		}
-	    }
-	}
-`
-
-Initially I put 
+Initially, for the Mario (Less) pset I put 
 	`//loop for spaces 
 		for (int sp = height - h; sp > 0; sp--)`
+Instead of 
+`//loop for spaces 
+		for (int sp = height - h; sp > 1; sp--)`
+		
 which resulted in my checks failing, even though it all looked correct at first glance. When I investigated, it seemed it was printing an extra space in front of the hash, `" #"` instead of `"#"`. This is because, by having `sp > 0`, spaces were being input from row 0 (ie row 1 in CS talk), where actually one didn't want any spaces. They should've been starting from second row, which is achieved by checking the boolean expression between the two semicolons. `sp > 0` translates to "is the integer greater than 0", but because the height is starting from 1, then this is always going to be true. When I changed it to `sp > 1`, it translated to "is the integer greater than 1", so the first row (height = 1) would come back as false, and therefore no space would be printed.
 
 To fix the portfolio I just deleted the wordpress install off the domain and literally uploaded the entire wordpress install + theme files from my localhost using Dreamhost's WebFTP. Still in the process of uploading everything... crossing fingers it works tomorrow! Definitely did something wrong somewhere along the line, but hey-ho, learning opportunity! 
@@ -187,7 +157,7 @@ On the coding bootcamp: I feel like I need to be immersed in code for a bit, hav
 **Thoughts:** There's so many WordPress logins... I can't keep track of them all. Playgrounds is getting fantastically more complicated. I'm working through it slowly, but really absorbing everything. Can't wait to build my first acctual Swift app!
 The CS50 problem sets are deceptive. They seem liek they'll be easy, then they're ridiculously hard and you don't know where to start, and then suddenly it starts working, everything makes sense, so you submit, and then you fail and you realise you have the whole thing wrong. I love it, but also hate it, and I guess that's the point. Onwards and upwards! 
 
-**Learning Opportunities:** Gonna be going through the problems I encounter with pset1 Cash and 'live' blog how I solve them:
+**Learning Opportunities:** Gonna be going through the problems I encounter with pset1 Cash and 'live' blog how I solve them, will hopefully retain and learn by explaining to myself as I go along:
 Struggled with getting the cents to round accurately without rounding too much. As at first try input: 3.60 with `int cents = round(dollars * 100);` output: 300... which is not what I'm looking for...
 Found the problem! I declared the cents as an int at the beginning, instead of float. Changed it and now it works (integers don't use decimals, so essentially the decimal was just disregarded when input). 
 The hints suggested we use the modulus operator, no idea where to start with that... probably the short on operators.
