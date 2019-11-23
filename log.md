@@ -223,13 +223,22 @@ In CSS I had to change `.card.project-info:before ` to `.card.project-info a:aft
 
 **Link(s) to work** [Emilie's jewellery portfolio](https://emilie.beandgolden.com)
 
-### Day 52: November 22
+### Day 52: November 23
 
-**Today:**
+**Today:** SP and CS50 pset1 Credit. (Also started my application to Flatiron School... which is not really coding yet, but hopefully will be a gateway to waaaay more coding!)
 
-**Thoughts:**
+**Thoughts:** Was completely stumped when I looked at the Credit pset. Literally had no idea where to start. Found the 'walkthrough' from cs50 on youtube, which reminded me about modulo (I knew it was going to come up, but wasn't sure how) and hinted as to how it would be used. Realised I knew NOTHING about modulo... 
 
-**Learning Opportunities:**
+Learnt a bit more about how I learn today instead of learning about C. I'm definitely an 'understander' before a 'doer'. I'm happy to experiment, and I'll happily try out random options, but only when I know what those random options are. Found myself too tempted to look at the answer and then work backwards, I'd rather have the information and work forwards (though both are valid ways of learning and I definitely do and will carry on using them). However, in this case, I don't want to go in completely blindly. More on this in 'learning opportunities'. 
+
+I'm also really enjoying writing up my process while I'm going through it - makes the learning more intentional. 
+
+**Learning Opportunitie/f%ck ups:**
+The search for the meaning of modulo: tried looking for it in stack overflow specifically related to C. But it just confused me more, people kept on talking about remainders when dividing and giving examples with numbers, which when I plugged them into my calculator, made no sense. Then one lone little comment on a post pointed out: go look up modulo unrelated to programming. Duh. It's a maths term, which I knew, and I made the mistake again in my mind - went too complicated before looking at the basics. Looked up modulo, someone mentioned long division (which has long since departed my brain) so went and did a quick minute refresher trying to divide 23 by 4. 5 remainder 3. But on my calculator said 5.75. So took a step away from my desk, made a cup of tea and mulled over this conundrum and inconsistency. Duh, Sabine. .75 = 3 quarters. 3 of 4... My dumb iphone calculator doesn't have the good old option of getting remainders instead of decimals (should've stuck with my school calculator instead of Apple clearly). I's all slipped into place! SO have to get a pen and paper out and put my newly resucitated long division skills to practice.The pset requires us to access every second digit in the credit card number, starting from the second last and going backwards. The one hint they give is to use `% 10` to get to the last number. So to test how this worked I literally just wrote a random list of digits and did long divison to see how the second last number could be accessed (following the logic you'd use `% 100`). After dividing by 100, I was left with the remainder as the last 2 digits. And then it hit me. Round down and divide by 10. Got unnecessarily excited at this revelation. Onwards! 
+
+Now I'm teaching myself arrays in C... 
+
+3 hours later and I got distracted by videos of comedians on fb. That's usually a sign for me that I need to look at things differently. Went to see what was covered in week 2 and see arrays is coming up. So, hanging my credit hat up for a bit, as I know I learn better by properly understanding before jumping in and I'll just end up looking up the answer which I don't want to do. 
 
 **Link(s) to work** 
 
