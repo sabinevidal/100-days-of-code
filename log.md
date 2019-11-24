@@ -244,11 +244,11 @@ Now I'm teaching myself arrays in C...
 
 ### Day 53: November 23
 
-**Today:**
+**Today:** Started the Flatiron Bootcamp prep.
 
-**Thoughts:**
+**Thoughts:** SP has definitely helped me be more comfortable with programming languages. Even though Swift and JavaScript are very different, I'm a lot less confused now that I'm looking over JavaScript again.
 
-**Learning Opportunities:**
+**Learning Opportunities:**  Learnt aabout CSS attribute selectors, which I think I'd definitely seen before but didn't absorb. Will probably go back into old code and see if I can update/clean up what I've written to practice. 
 
 **Link(s) to work** 
 
