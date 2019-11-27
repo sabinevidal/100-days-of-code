@@ -248,25 +248,25 @@ Now I'm teaching myself arrays in C...
 
 **Thoughts:** SP has definitely helped me be more comfortable with programming languages. Even though Swift and JavaScript are very different, I'm a lot less confused now that I'm looking over JavaScript again.
 
-**Learning Opportunities:**  Learnt aabout CSS attribute selectors, which I think I'd definitely seen before but didn't absorb. Will probably go back into old code and see if I can update/clean up what I've written to practice. 
+**Learning Opportunities:**  Learnt aabout CSS attribute selectors in the Bootcamp prep, which I think I'd definitely seen before but didn't absorb. Will probably go back into old code and see if I can update/clean up what I've written to practice. 
 
 **Link(s) to work** 
 
-### Day 54: November 24
+### Day 54: November 25
 
-**Today:**
+**Today:** Not too much today, SP and carried on with Flatiron's bootcamp.
 
-**Thoughts:**
+**Thoughts:** Started on JavaScript in the bootcamp prep, realised I'd forgotten a lot of it. 
 
 **Learning Opportunities:**
 
 **Link(s) to work** 
 
-### Day 55: November 25
+### Day 55: November 26
 
-**Today:**
+**Today:** Same as yesterday, SP and bootcamp prep.
 
-**Thoughts:**
+**Thoughts:** Almost at the end of the 'Learn to Code' classes on SP! Which is rather exciting. There's a bunch of other learning classes, but they seem to be more rooted in 'life' leading to apps I'd actually use, like making a camera app.
 
 **Learning Opportunities:**
 
@@ -274,7 +274,7 @@ Now I'm teaching myself arrays in C...
 
 ### Day 56: November 26
 
-**Today:**
+**Today:** Watched CS50 lecture 3, and did some classes on bootcamp prep.
 
 **Thoughts:**
 
