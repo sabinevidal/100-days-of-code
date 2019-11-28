@@ -276,7 +276,7 @@ Now I'm teaching myself arrays in C...
 
 **Today:** Watched CS50 lecture 3, and did some classes on bootcamp prep.
 
-**Thoughts:**
+**Thoughts:** lowercase to uppercase 
 
 **Learning Opportunities:**
 
@@ -284,19 +284,22 @@ Now I'm teaching myself arrays in C...
 
 ### Day 57: November 28
 
-**Today:** Watched CS50 lecture 3, and did some classes on bootcamp prep. 
+**Today:** Started on a website for my brother's art piece, worked on bootcamp prep.
 
-**Thoughts:** lowercase to uppercase 
+**Thoughts:**  Finding the right plugins is hard on WP... making things happen when you don't know any useful frameworks/languages on static sites is even harder. Bit of a hard day confidence wise, but trying to get back into my growth mindset, it just means I'm on ym way to learning more! 
+
+But I think this had the biggest hit on my confidence: I had a run in with the unhelpful and patronising side of Stack Overflow. I asked a question about what I should do/where I should start with setting up the contact form on a static site, and recieved a downvote and very patronising answer with **bold** and *italic*, saying my question was too broad (even after I edited it). It reminded me that I'm entering into a world of lower emotional understanding than I'm used to (to be honest, most situations are like that when you've been studying psychology...). But just need to take a step back and remind myself that not everyone's going to be welcoming of newbies, and I need to make sure I'm clear about what I need (definitely a good life skill to have). Thankfully some helpful user arrived to my rescue and explained *why* and *how* my question was too broad and not appropriate for SO. The whole thing just reminded me how new I am to all this, and also to be careful of where (and how) I ask for help... 
 
 **Learning Opportunities:**
+At first I decided to use WordPress with Underscores for my brother's site, as although it's just a landing page, he was thinking about adding questionnaires etc, and although I could definitely learn how to do that on a static site, he needs it quite quickly and I'm definitely a lot more comfortable with WP at this point. However, after searching through plugins for about 2 hours I found **nothing** that was useful for what I needed. Which just happened to be an incredibly simple contact form including a drop down option for available dates. But apparently that's not simple (unless you want to spend money, which my brother does not want to do at this point). So then I started looking at a static site option and made some headway (as in I think I found what I was looking for). But then I realised I have no idea how to store the available dates and 'delete' them once someone's selected. I could learn, and it's definitely possible. But I have no idea where to start, and don't have the time for this project. Managed to at least get a contact form which sends emails onto the static site, thanks to [Reusable Forms](http://reusableforms.com/d/a/contact-form-bootstrap)! Have decided to sleep on it and either try the plugin route, or hope I can come up with the right question to ask on SO.
 
 **Link(s) to work** 
 
 ### Day 58: November 29
 
-**Today:** Started on a website for my brother's art piece,
+**Today:** 
 
-**Thoughts:**  Decided to use WordPress with Underscores for my brother's site, as although it's just a landing page, he was thinking about adding questionnaires etc, and although I could definitely learn how to do that on a static site, he needs it quite quickly and I'm definitely a lot more comfortable with WP at this point. 
+**Thoughts:** 
 
 **Learning Opportunities:**
 
