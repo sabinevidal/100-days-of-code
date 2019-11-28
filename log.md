@@ -272,7 +272,7 @@ Now I'm teaching myself arrays in C...
 
 **Link(s) to work** 
 
-### Day 56: November 26
+### Day 56: November 27
 
 **Today:** Watched CS50 lecture 3, and did some classes on bootcamp prep.
 
@@ -282,7 +282,27 @@ Now I'm teaching myself arrays in C...
 
 **Link(s) to work** 
 
-### Day 57: November 27
+### Day 57: November 28
+
+**Today:** Watched CS50 lecture 3, and did some classes on bootcamp prep. 
+
+**Thoughts:** lowercase to uppercase 
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 58: November 29
+
+**Today:** Started on a website for my brother's art piece,
+
+**Thoughts:**  Decided to use WordPress with Underscores for my brother's site, as although it's just a landing page, he was thinking about adding questionnaires etc, and although I could definitely learn how to do that on a static site, he needs it quite quickly and I'm definitely a lot more comfortable with WP at this point. 
+
+**Learning Opportunities:**
+
+**Link(s) to work** 
+
+### Day 59: November 30
 
 **Today:**
 
@@ -292,7 +312,7 @@ Now I'm teaching myself arrays in C...
 
 **Link(s) to work** 
 
-### Day 58: November 28
+### Day 60: December 1
 
 **Today:**
 
@@ -302,7 +322,7 @@ Now I'm teaching myself arrays in C...
 
 **Link(s) to work** 
 
-### Day 59: November 29
+### Day 61: December 2
 
 **Today:**
 
@@ -312,7 +332,7 @@ Now I'm teaching myself arrays in C...
 
 **Link(s) to work** 
 
-### Day 60: November 30
+### Day 62: December 3
 
 **Today:**
 
@@ -322,7 +342,7 @@ Now I'm teaching myself arrays in C...
 
 **Link(s) to work** 
 
-### Day 61: December 1
+### Day 63: December 4
 
 **Today:**
 
@@ -332,7 +352,7 @@ Now I'm teaching myself arrays in C...
 
 **Link(s) to work** 
 
-### Day 62: December 2
+### Day 64: December 5
 
 **Today:**
 
@@ -342,7 +362,7 @@ Now I'm teaching myself arrays in C...
 
 **Link(s) to work** 
 
-### Day 63: December 3
+### Day 65: December 6
 
 **Today:**
 
@@ -352,7 +372,7 @@ Now I'm teaching myself arrays in C...
 
 **Link(s) to work** 
 
-### Day 64: December 4
+### Day 66: December 7
 
 **Today:**
 
@@ -362,7 +382,7 @@ Now I'm teaching myself arrays in C...
 
 **Link(s) to work** 
 
-### Day 65: December 5
+### Day 67: December 8
 
 **Today:**
 
@@ -372,7 +392,7 @@ Now I'm teaching myself arrays in C...
 
 **Link(s) to work** 
 
-### Day 66: December 6
+### Day 68: December 9
 
 **Today:**
 
@@ -382,7 +402,7 @@ Now I'm teaching myself arrays in C...
 
 **Link(s) to work** 
 
-### Day 67: December 7
+### Day 69: December 10
 
 **Today:**
 
@@ -392,7 +412,7 @@ Now I'm teaching myself arrays in C...
 
 **Link(s) to work** 
 
-### Day 68: December 8
+### Day 70: December 11
 
 **Today:**
 
@@ -402,7 +422,7 @@ Now I'm teaching myself arrays in C...
 
 **Link(s) to work** 
 
-### Day 69: December 9
+### Day 71: December 12
 
 **Today:**
 
@@ -412,7 +432,7 @@ Now I'm teaching myself arrays in C...
 
 **Link(s) to work** 
 
-### Day 70: December 10
+### Day 72: December 13
 
 **Today:**
 
@@ -422,7 +442,7 @@ Now I'm teaching myself arrays in C...
 
 **Link(s) to work** 
 
-### Day 71: December 11
+### Day 73: December 14
 
 **Today:**
 
@@ -432,7 +452,7 @@ Now I'm teaching myself arrays in C...
 
 **Link(s) to work** 
 
-### Day 72: December 12
+### Day 74: December 15
 
 **Today:**
 
@@ -442,27 +462,7 @@ Now I'm teaching myself arrays in C...
 
 **Link(s) to work** 
 
-### Day 73: December 13
-
-**Today:**
-
-**Thoughts:**
-
-**Learning Opportunities:**
-
-**Link(s) to work** 
-
-### Day 74: December 14
-
-**Today:**
-
-**Thoughts:**
-
-**Learning Opportunities:**
-
-**Link(s) to work** 
-
-### Day 75: December 15
+### Day 75: December 16
 
 **Today:**
 
