@@ -327,21 +327,39 @@ At first I decided to use WordPress with Underscores for my brother's site, as a
 
 ### Day 61: December 2
 
-**Today:**
+**Today:** Watched the CS50 short video on fuctions (in C) and worked on the Flatiron bootcamp prep Javascript functions lessons.  
 
-**Thoughts:**
+**Thoughts:** Too many functions today. I'd already been introduced to JS functions in my Skillcrush course, and then again in Swift in Playgrounds. So I have a good understanding of them. But wow, learning about them in C and getting deeper in JS within an hour of each other hurt my brain. I'm still getting used to the syntax of each language, so my brain had to work extra hard to not get them confused. It's definitely a lesson in making sure I compartmentalise my languages and review each one's syntax to not get them confused. Especially since I'm going to be adding Ruby into the mix in the next couple of days (and Python once I get further with CS50). In a way it's useful to learn multiple languages on the go, because I don't get caught up in the *language*, I learn how to *learn* and get comfortable with programming fundamentals (definitely a future blog post in there). It's also good training for my brain to work with more langauges at once, which I'll defintiely need to do in a job, but better to learn how to do it properly earlier on (before I get stuck in my ways). Anyway, ramblings. Hopefully each lanaguge will hepl me with the other in the courses. Though think I may do another quick JS course after this before I start any bootcamp so I am fully confident with it. 
 
-**Learning Opportunities:**
+**Learning Opportunities:** 
 
 **Link(s) to work** 
 
 ### Day 62: December 3
 
-**Today:**
+**Today:** Javascript fundamentals for bootcamp prep. 
 
 **Thoughts:**
 
-**Learning Opportunities:**
+**Learning Opportunities:** 
+Was struggling with the Fix the Scope lab. Finally worked it out, but wanted to markup my reasoning to make sense of it.
+
+`
+\\defining funciton
+var funkyFunction = function() { //assigns the the function 'function()' to variable funkyFunction 
+  return function() {   //when function() is called, it will return itself, as the function is 'hidden' from the global variable
+    return "FUNKY!"  //the function() function returns "Funky"
+  }
+}
+
+// We want to set theFunk equal to "FUNKY!" using our funkyFunction.
+// NOTE: you only need to modify the code below this line.
+var theFunk = funkyFunction()   //assigns the funkyFunction() from above to the variable theFunk. This gets to the first level fo the original function up above, so it just returns the stringified version of function(), but doesn't get to "Funky"
+theFunk = theFunk()   // assign theFunk variable as a function and call it, which gets into the next level
+`
+
+Not sure if that's right... going to come back to it once I've done some more reading.
+
 
 **Link(s) to work** 
 
